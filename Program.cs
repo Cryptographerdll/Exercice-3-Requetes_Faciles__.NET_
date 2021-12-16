@@ -17,6 +17,7 @@ namespace Requêtes_Faciles_3__.NET_
                         where x > 2
                         where x % 2 == 0
                         where x < 20
+                orderby x ascending 
                         select x;
 
             foreach (var x in query)
